@@ -1,0 +1,28 @@
+.songItem {
+    height: 430px;
+    position: relative;
+}
+
+.songItem img {
+    object-fit: contain;
+}
+
+.play-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    opacity: 0;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.songItem:hover .play-button {
+    top: 60%;
+    left: 74%;
+    opacity: 1;
+}
+
+.title-new_-song {
+    font-family: "Pacifico", cursive;
+}
