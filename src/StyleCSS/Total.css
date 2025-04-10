@@ -1,0 +1,16 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: rgb(173, 170, 199);
+}
+
+.nav-option{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+.nav-option a{
+    text-decoration: none;
+    color: black;
+}
