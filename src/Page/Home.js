@@ -2,27 +2,29 @@ import React, { useEffect, useState } from 'react'
 import HeaderPage from '../Components/HeaderPage'
 import SlideShow from '../Components/SlideShow'
 import NewSong from '../Components/NewSong';
+import data from '../MusicPage.json'
+import SingerInformation from '../Components/SingerInformation';
 
 function Home() {
 
     const [dataBanner, setDataBanner] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/Banners")
-            .then(respond => respond.json())
-            .then(result => {
-                console.log(result);
-                setDataBanner(result)
-            }
-            )
+        if (data.Banners) {
+            console.log("banner: ", data.Banners);
+
+            setDataBanner(data.Banners);
+        }
     }, [])
 
     return (
-        <div className='pb-5' style={ { overflowX: 'hidden' } }>
+        <div className='pb-5'>
             <HeaderPage />
-            <SlideShow data={ dataBanner } />
-            <NewSong/>
-
+           <div style={{overflow:'hidden'}}>
+                { dataBanner && <SlideShow data={ dataBanner } /> }
+           </div>
+            <NewSong />
+            <SingerInformation/>
         </div>
     )
 }

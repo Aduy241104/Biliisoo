@@ -19,7 +19,7 @@ function HeaderPage() {
                     <img src="//shop.jisoo.io/cdn/shop/files/Logo_Desktop_Blk_100x.png?v=1738043611" alt="" />
                 </div>
                 <div className='col-lg-4 d-flex justify-content-end fs-4'>
-                    <i class="fa-solid fa-magnifying-glass me-3"></i>
+                    <i class="fa-brands fa-spotify me-3"></i>
                     <i class="fa-solid fa-cart-shopping me-3"></i>
                     <i class="fa-brands fa-youtube me-3"></i>
                     <i class="fa-brands fa-instagram me-3"></i>

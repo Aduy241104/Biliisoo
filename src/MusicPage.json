@@ -1,0 +1,67 @@
+ {
+   "Banners": [
+    {
+      "id": "1",
+      "ImageUrl": "Images/Banner1.jpg",
+      "Title": "Amortage",
+      "Description": "Amortage marks a powerful step in Jisoo’s solo career, showcasing her emotional depth and vocal maturity. With four distinct tracks, the album paints a vivid picture of love—from its tremors to its tender embraces."
+    },
+    {
+      "id": "2",
+      "ImageUrl": "Images/Banner8.jpg",
+      "Title": "Earthquake",
+      "Description": "Opening the album with a bang, “Earthquake” captures the electric rush of falling in love. Jisoo’s strong vocals ride the intense beat, making it an unforgettable intro track."
+    },
+    {
+      "id": "3",
+      "ImageUrl": "Images/Banner2.jpg",
+      "Title": "Hugs & Kisses",
+      "Description": "Closing the album on a warm note, “Hugs & Kisses” is a sweet and soothing track. Its cozy melody and heartfelt lyrics wrap listeners in a feeling of comfort and closure."
+    },
+    {
+      "id": "4",
+      "ImageUrl": "Images/Banner5.jpg",
+      "Title": "Your Love",
+      "Description": "“Your Love” wraps you in a dreamy, romantic soundscape. With light synths and Jisoo’s gentle voice, it feels like floating through a late-night drive under city lights. It’s the kind of song that stays in your head — and your heart."
+    },
+    {
+      "id": "5",
+      "ImageUrl": "Images/Banner7.jpg",
+      "Title": "Tears",
+      "Description": "A haunting ballad, “Tears” delves into the pain of love lost. Jisoo delivers each lyric with raw emotion, touching the listener with her soft yet sorrowful tone."
+    },
+    {
+      "id": "6",
+      "ImageUrl": "Images/Banner4.jpg",
+      "Title": "Press Play",
+      "Description": "From the first note to the last whisper, Amortage isn’t just an album — it’s a feeling. It’s the type of record you keep coming back to when words aren’t enough."
+    }
+  ],
+  "Music": [
+    {
+      "id": "1",
+      "img":"Images/earthquake.jpg",
+      "name": "EARTHQUAKE",
+      "singer": "JISOO"
+    },
+    {
+      "id": "2",
+      "img": "Images/YourLove.jpg",
+      "name": "YOUR LOVE",
+      "singer": "JISOO"
+    },
+    {
+      "id": "3",
+      "img": "Images/Tears.jpg",
+      "name": "TEARS",
+      "singer": "JISOO"
+    },
+    {
+      "id": "4",
+      "img": "Images/HugsAndKiss.jpg",
+      "name": "HUGS & KISSES",
+      "singer": "JISOO"
+    }
+  ]
+}
+
