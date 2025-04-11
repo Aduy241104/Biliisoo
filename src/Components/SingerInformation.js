@@ -35,7 +35,7 @@ function SingerInformation() {
                     </div>
                 </div>
                 <div className='col-md-5 col-sm-12 text-center block'>
-                    <img src="https://www.blissoo.co.kr/cms/data/home/en/1/67aed12324c7f.jpg" alt="img1" className='w-75 rounded-5 hj' />
+                    <img src="https://www.blissoo.co.kr/cms/data/home/en/1/67aed12324c7f.jpg" alt="img1" className='w-100 rounded-4 hj' />
                 </div>
             </div>
         </div>

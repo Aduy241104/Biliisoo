@@ -4,6 +4,7 @@ import SlideShow from '../Components/SlideShow'
 import NewSong from '../Components/NewSong';
 import data from '../MusicPage.json'
 import SingerInformation from '../Components/SingerInformation';
+import Filmography from '../Components/Filmography';
 
 function Home() {
 
@@ -25,6 +26,7 @@ function Home() {
            </div>
             <NewSong />
             <SingerInformation/>
+            <Filmography/>
         </div>
     )
 }

@@ -1,5 +1,5 @@
- {
-   "Banners": [
+{
+  "Banners": [
     {
       "id": "1",
       "ImageUrl": "Images/Banner1.jpg",
@@ -40,7 +40,7 @@
   "Music": [
     {
       "id": "1",
-      "img":"Images/earthquake.jpg",
+      "img": "Images/earthquake.jpg",
       "name": "EARTHQUAKE",
       "singer": "JISOO"
     },
@@ -62,6 +62,103 @@
       "name": "HUGS & KISSES",
       "singer": "JISOO"
     }
+  ],
+  "Awards": [
+    {
+      "year": 2024,
+      "content": "Korean Sales Music Awards 'Best New Soloist - Female'"
+    },
+    {
+      "year": 2024,
+      "content": "13th Circle Chart Music Awards 'Artist of the Year - Global Streaming'"
+    },
+    {
+      "year": 2024,
+      "content": "38th Golden Disc Awards 'Bugs Favorite Golden Disc Popular Artist - Female'"
+    },
+    {
+      "year": 2024,
+      "content": "38th Golden Disc Awards 'Grand Prize - Digital Song Division'"
+    },
+    {
+      "year": 2023,
+      "content": "2023 Asian Pop Music Awards 'Top 20 Songs Of The Year'"
+    },
+    {
+      "year": 2023,
+      "content": "2023 Asian Pop Music Awards 'People's Choice Award'"
+    },
+    {
+      "year": 2023,
+      "content": "2023 Asian Pop Music Awards 'Best Female Artist'"
+    },
+    {
+      "year": 2023,
+      "content": "2023 Asian Pop Music Awards 'Song Of The Year'"
+    },
+    {
+      "year": 2023,
+      "content": "2023 China Year End Awards 'Best Selling International Single'"
+    },
+    {
+      "year": 2023,
+      "content": "2023 China Year End Awards 'Best Selling Kpop Single'"
+    },
+    {
+      "year": 2023,
+      "content": "2023 China Year End Awards 'Best Selling Solo Kpop Single'"
+    },
+    {
+      "year": 2023,
+      "content": "2023 China Year End Awards 'Best Selling Single'"
+    },
+    {
+      "year": 2023,
+      "content": "2023 Mnet Asia Music Awards 'Best Music Video'"
+    }
+  ],
+  "Drama": [
+    {
+      "year": 2025,
+      "content": "CoupangPlay Newtopia │ 'SeoYoungJoo' Role"
+    },
+    {
+      "year": 2021,
+      "content": "JTBC Snowdrop | 'Eunyoung-ro Role"
+    },
+    {
+      "year": 2019,
+      "content": "TVN Arthdal Chronicles | 'Saenarae' Role (Cameo)"
+    },
+    {
+      "year": 2015,
+      "content": "KBS The Producer | 'Jisoo Role (Cameo)"
+    }
+  ],
+  "Movie": [
+    {
+      "year": 2023,
+      "content": "DR. CHEON: AND THE LOST TALISMAN | Taoist fairy Role (Cameo)"
+    }
+  ],
+  "BroadCast": [
+    {
+      "year": 2023,
+      "content": "COUPANG PLAY Leaving Floral Scent MC"
+    },
+    {
+      "year": 2017,
+      "content": "SBS Popular Song special MC"
+    }
+  ],
+  "Albums": [
+    {
+      "year": 2025,
+      "content": "AMORTAGE"
+    },
+    {
+      "year": 2023,
+      "content": "ME"
+    }
   ]
 }
-
