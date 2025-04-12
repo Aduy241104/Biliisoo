@@ -14,3 +14,16 @@ body {
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 700px) {
+    .headerResponsive {
+        display: flex;
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+
+    .headerResponsive a {
+        font-size: 3vh;
+        margin: 0px 5px;
+    }
+}

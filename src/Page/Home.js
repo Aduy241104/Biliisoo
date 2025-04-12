@@ -5,15 +5,13 @@ import NewSong from '../Components/NewSong';
 import data from '../MusicPage.json'
 import SingerInformation from '../Components/SingerInformation';
 import Filmography from '../Components/Filmography';
+import Gallery from '../Components/Gallery';
 
 function Home() {
-
     const [dataBanner, setDataBanner] = useState([]);
 
     useEffect(() => {
         if (data.Banners) {
-            console.log("banner: ", data.Banners);
-
             setDataBanner(data.Banners);
         }
     }, [])
@@ -21,12 +19,13 @@ function Home() {
     return (
         <div className='pb-5'>
             <HeaderPage />
-           <div style={{overflow:'hidden'}}>
+            <div style={ { overflow: 'hidden' } }>
                 { dataBanner && <SlideShow data={ dataBanner } /> }
-           </div>
+            </div>
             <NewSong />
-            <SingerInformation/>
-            <Filmography/>
+            <SingerInformation />
+            <Filmography />
+            <Gallery />
         </div>
     )
 }

@@ -11,23 +11,29 @@ function Filmography() {
     }
 
     useEffect(() => {
-        if (currentIndex == 0) {
-            setContent(data.Awards);
-        } else if (currentIndex == 1) {
-            setContent(data.Drama);
-        } else if (currentIndex == 2) {
-            setContent(data.Movie);
-        } else if (currentIndex == 3) {
-            setContent(data.BroadCast);
-        } else {
-            setContent(data.Albums);
+        switch (currentIndex) {
+            case 0:
+                setContent(data.Awards);
+                break;
+            case 1:
+                setContent(data.Drama);
+                break;
+            case 2:
+                setContent(data.Movie);
+                break;
+            case 3:
+                setContent(data.BroadCast);
+                break;
+            default:
+                setContent(data.Albums);
+                break;
         }
+
     }, [currentIndex])
 
     return (
-        <div className='container-fluid bg-light p-4'>
+        <div className='container-fluid bg-light pt-5 pb-5'>
             <div className='row'>
-
                 <div className='col-md-7 col-sm-12 d-flex flex-wrap justify-content-center mb-4 block'>
                     <div className='w-100 content-infor flex-wrap align-content-center row'>
                         <div className='col-lg-3  flex-wrap align-content-center mb-5'>
@@ -46,23 +52,20 @@ function Filmography() {
                                 <div className="bg-transparent p-4 table-content">
                                     { content.map((item, index) => {
                                         return (
-                                            <div className="row mb-4" key={index}>
-                                                <div className="col-2 fw-normal">{item.year}</div>
-                                                <div className="col-10">{item.content}</div>
+                                            <div className="row mb-4" key={ index }>
+                                                <div className="col-2 fw-normal">{ item.year }</div>
+                                                <div className="col-10">{ item.content }</div>
                                             </div>
                                         )
                                     }) }
 
                                 </div>
-
-
                             </div>
-
                         </div>
                     </div>
                 </div>
                 <div className='col-md-5 col-sm-12 text-center block'>
-                    <img src="Images/Jisoo3.jpg" alt="" className='w-100 rounded-4 hj' />
+                    <img src="Images/Jisoo3.jpg" alt="" className='w-75 rounded-4 hj' />
                 </div>
             </div>
         </div>

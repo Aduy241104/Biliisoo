@@ -15,7 +15,7 @@ function NewSong() {
     return (
         <div className='container-fluid bg-dark mt-5 p-5'>
             <h2 className='text-center text-light mb-5 title-new-song'>New Song</h2>
-            <div className='row'>
+            <div className='row d-flex justify-content-center'>
                 { song.map((item) => {
                     return (
                         <>
@@ -26,11 +26,13 @@ function NewSong() {
                                 id={ item.id }
                                 key={ item.id }
                             />        
-                        </>
-                       
-                        
+                        </>        
                     )
                 }) }
+
+                <div className='col-md-2 col-5 text-center mt-5'>
+                    <img src="Images/audio-wave-xxl.png" alt="" className='w-25' />
+                </div>
             </div>
 
         </div>
