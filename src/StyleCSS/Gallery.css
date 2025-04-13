@@ -1,5 +1,5 @@
 .mansory {
-    columns: 4;
+    columns: 5;
     column-gap: 8px;
 }
 
@@ -7,14 +7,14 @@
     display: block;
     max-width: 100%;
     margin-bottom: 10px;
-    border-radius: 8px;
-}
+        border-radius: 8px;
+    }
 
-.mansory img {
+    .mansory img {
     animation-name: slowAppear;
     animation-duration: 5s;
     animation-timeline: view();
-    animation-range: entry 0% cover 33%;
+    animation-range: entry 0% cover 20%;
     animation-fill-mode: both;
     animation-composition: replace;
     /* thay vì mix với animation khác */

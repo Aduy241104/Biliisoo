@@ -8,14 +8,13 @@ function SingerInformation() {
                 <div className='col-md-7 col-sm-12 d-flex flex-wrap justify-content-center mb-4 block'>
                     <div className='w-100 content-infor flex-wrap align-content-center row'>
                         <div className='col-lg-3  flex-wrap align-content-center'>
-                            <h5>JISOO</h5>
+                            <h5 className=''>JISOO</h5>
                         </div>
                         <div className='col-lg-9'>
                             <p>
                                 JISOO, who debuted with BLACKPINK in 2016,
                                 is a multi-talented artist, shining both as a singer and actress.
                             </p>
-
                             <p>
                                 She is recognized not only for her contributions to the group
                                 but also for her successful solo career, earning multiple awards in

@@ -104,6 +104,32 @@
 
 }
 
+@media screen and (max-width: 700px) {
+    .slide .item-slide:nth-child(3) {
+        left: 65%;
+        display: none;
+    }
+
+    .slide .item-slide:nth-child(4) {
+        left: calc(65% + 180px);
+        display: none;
+    }
+
+    .slide .item-slide:nth-child(5) {
+        left: calc(65% + 360px);
+        display: none;
+    }
+
+
+    .slide .item-slide:nth-child(n + 6) {
+        left: calc(65% + 540px);
+        opacity: 0;
+        display: none;
+
+    }
+
+}
+
 .button-slide {
     text-align: center;
     width: 100%;

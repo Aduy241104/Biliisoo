@@ -3,14 +3,14 @@ body {
     background-color: rgb(173, 170, 199);
 }
 
-.nav-option{
+.nav-option {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     padding-left: 0;
 }
 
-.nav-option a{
+.nav-option a {
     text-decoration: none;
     color: black;
 }
@@ -26,4 +26,46 @@ body {
         font-size: 3vh;
         margin: 0px 5px;
     }
+
+    .video-format {
+        width: 100% !important;
+        height: 200px !important;
+    }
+
+        .item-new {
+            height: 300px !important;
+            overflow: hidden;
+            font-size: 2vh;
+            padding-bottom: 40px !important;
+        }
+
+        .item-new button {
+            font-size: 11px;
+        }
+}
+
+.bg-purple {
+    background-color: rgb(173, 170, 199);
+}
+
+.hjkl {
+    font-family: "Wavefont", system-ui;
+}
+
+.video-format {
+    width: 50%;
+    height: 400px;
+}
+
+.special-background {
+    background-image: linear-gradient(180deg,rgb(44, 43, 43),rgb(181, 177, 222));
+}
+
+.item-new {
+    height: 400px;
+    overflow: hidden;
+}
+
+.item-new img {
+    object-fit: cover;
 }

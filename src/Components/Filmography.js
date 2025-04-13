@@ -33,11 +33,11 @@ function Filmography() {
 
     return (
         <div className='container-fluid bg-light pt-5 pb-5'>
-            <div className='row'>
+            <div className='row pt-5 pb-5'>
                 <div className='col-md-7 col-sm-12 d-flex flex-wrap justify-content-center mb-4 block'>
                     <div className='w-100 content-infor flex-wrap align-content-center row'>
                         <div className='col-lg-3  flex-wrap align-content-center mb-5'>
-                            <h5>FILMOGRAPHY</h5>
+                            <h5 className='pb-2 ps-3 pt-2 bg-purple rounded-5'>FILMOGRAPHY</h5>
                         </div>
                         <div className='col-lg-9'>
                             <div className='d-flex justify-content-around pb-2 border-bottom border-secondary anima'>

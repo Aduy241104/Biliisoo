@@ -6,6 +6,8 @@ import data from '../MusicPage.json'
 import SingerInformation from '../Components/SingerInformation';
 import Filmography from '../Components/Filmography';
 import Gallery from '../Components/Gallery';
+import ListenNow from '../Components/ListenNow';
+import News from '../Components/News';
 
 function Home() {
     const [dataBanner, setDataBanner] = useState([]);
@@ -25,7 +27,10 @@ function Home() {
             <NewSong />
             <SingerInformation />
             <Filmography />
+            <ListenNow />
+            <News />
             <Gallery />
+
         </div>
     )
 }
