@@ -18,8 +18,9 @@ body {
 @media screen and (max-width: 700px) {
     .headerResponsive {
         display: flex;
-        justify-content: center !important;
+        justify-content: flex-start !important;
         margin-top: 20px;
+        padding: 0 !important;
     }
 
     .headerResponsive a {
@@ -32,16 +33,24 @@ body {
         height: 200px !important;
     }
 
-        .item-new {
-            height: 300px !important;
-            overflow: hidden;
-            font-size: 2vh;
-            padding-bottom: 40px !important;
-        }
+    .item-new {
+        height: 300px !important;
+        overflow: hidden;
+        font-size: 2vh;
+        padding-bottom: 40px !important;
+    }
 
-        .item-new button {
-            font-size: 11px;
-        }
+    .item-new button {
+        font-size: 11px;
+    }
+
+
+    .line-clamp2 {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
 }
 
 .bg-purple {
@@ -58,7 +67,7 @@ body {
 }
 
 .special-background {
-    background-image: linear-gradient(180deg,rgb(44, 43, 43),rgb(181, 177, 222));
+    background-image: linear-gradient(180deg, rgb(44, 43, 43), rgb(181, 177, 222));
 }
 
 .item-new {

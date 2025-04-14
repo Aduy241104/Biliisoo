@@ -20,7 +20,6 @@ function Home() {
 
     return (
         <div className='pb-5'>
-            <HeaderPage />
             <div style={ { overflow: 'hidden' } }>
                 { dataBanner && <SlideShow data={ dataBanner } /> }
             </div>
@@ -28,7 +27,7 @@ function Home() {
             <SingerInformation />
             <Filmography />
             <ListenNow />
-            <News />
+            <News data={ data.Media }/>
             <Gallery />
 
         </div>

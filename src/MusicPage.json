@@ -160,5 +160,44 @@
       "year": 2023,
       "content": "ME"
     }
+  ],
+  "Media": [
+    {
+      "id": 1,
+      "thumbnail": "Images/hq720.avif",
+      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
+      "tags": ["JISOO", "AMORTAGE", "earthquake"],
+      "description": "",
+      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
+    },
+    {
+      "id": 2,
+      "thumbnail": "Images/hq721.avif",
+      "title": "[🎥] Newtopia BEHIND",
+      "tags": [],
+      "description": "",
+      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
+    },
+    {
+      "id": 3,
+      "thumbnail": "Images/hqdefault.webp",
+      "title": "[🎥] 'AMORTAGE' UNBOXING",
+      "tags": [
+        "JISOO",
+        "AMORTAGE"
+      ],
+      "description": "",
+      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
+    },
+    {
+      "id": 4,
+      "thumbnail": "Images/hqdefault1.webp",
+      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
+      "tags": [
+        "JISOO"
+      ],
+      "description": "",
+      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
+    }
   ]
 }
