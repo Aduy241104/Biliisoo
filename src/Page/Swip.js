@@ -7,19 +7,19 @@ import '../App.css'
 
 
 
-function Swip({images}) {
-    
+function Swip({ images }) {
+
     return (
         <div>
             <Swiper navigation={ true } modules={ [Navigation] } className="mySwiper">
-                {images.map((item, index) => {
+                { images.map((item, index) => {
                     return (
-                        <SwiperSlide key={index}>
-                            <img src={item} alt="" />
+                        <SwiperSlide key={ index }>
+                            <img src={ `${process.env.PUBLIC_URL}${item}` } alt="" />
                         </SwiperSlide>
                     )
 
-                })}
+                }) }
             </Swiper>
         </div>
     )

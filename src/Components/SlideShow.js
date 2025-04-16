@@ -28,7 +28,7 @@ function SlideShow({ data }) {
             <div className='slide'>
                 { initSlide.map((item) => {
                     return (
-                        <div className='item-slide' style={ { backgroundImage: `url(${item.ImageUrl})` } } key={ item.id }>
+                        <div className='item-slide' style={ { backgroundImage: `url(${process.env.PUBLIC_URL}${item.ImageUrl})` } } key={ item.id }>
                             <div className='content-slide'>
                                 <div className='name-slide'>{ item.Title }</div>
                                 <div className='des line-clamp'>{ item.Description }</div>

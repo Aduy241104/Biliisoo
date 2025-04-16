@@ -10,21 +10,21 @@ function Gallery() {
                 </div>
                 <div className='col-lg-10'>
                     <div className='mansory'>
-                        <img src="Images/Fanmmet10.jpg" alt="" />
-                        <img src="Images/Fanmeeting2.jpg" alt="" />
-                        <img src="Images/VietNam2.jpg" alt="" />
-                        <img src="Images/VietNam3.jpg" alt="" />
-                        <img src="Images/VietNam4.jpg" alt="" />
-                        <img src="Images/VietNamFanmeeting1.jpg" alt="" />
-                        <img src="Images/Fanmet2.jpg" alt="" />
-                        <img src="Images/Fanmmet6.jpg" alt="" />
-                        <img src="Images/Fanmet5.jpg" alt="" />
-                        <img src="Images/Fanmmet9.jpg" alt="" />
-                        <img src="Images/Fanmmet7.jpg" alt="" />
-                        <img src="Images/Fanmmet9.jpg" alt="" />
-                        <img src="Images/Fanmmeet8.jpg" alt="" />
-                        <img src="Images/VietNam3.jpg" alt="" />
-                        <img src="Images/Fanmmet9.jpg" alt="" />
+                        <img src="/Images/Fanmmet10.jpg" alt="" />
+                        <img src="/Images/Fanmeeting2.jpg" alt="" />
+                        <img src="/Images/VietNam2.jpg" alt="" />
+                        <img src="/Images/VietNam3.jpg" alt="" />
+                        <img src="/Images/VietNam4.jpg" alt="" />
+                        <img src="/Images/VietNamFanmeeting1.jpg" alt="" />
+                        <img src="/Images/Fanmet2.jpg" alt="" />
+                        <img src="/Images/Fanmmet6.jpg" alt="" />
+                        <img src="/Images/Fanmet5.jpg" alt="" />
+                        <img src="/Images/Fanmmet9.jpg" alt="" />
+                        <img src="/Images/Fanmmet7.jpg" alt="" />
+                        <img src="/Images/Fanmmet9.jpg" alt="" />
+                        <img src="/Images/Fanmmeet8.jpg" alt="" />
+                        <img src="/Images/VietNam3.jpg" alt="" />
+                        <img src="/Images/Fanmmet9.jpg" alt="" />
                         
                         
                        

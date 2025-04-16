@@ -65,7 +65,7 @@ function Filmography() {
                     </div>
                 </div>
                 <div className='col-md-5 col-sm-12 text-center block'>
-                    <img src="Images/Jisoo3.jpg" alt="" className='w-75 rounded-4 hj' />
+                    <img src="/Images/Jisoo3.jpg" alt="" className='w-75 rounded-4 hj' />
                 </div>
             </div>
         </div>

@@ -13,6 +13,7 @@ function App() {
       <HeaderPage />
      
       <Routes>
+        <Route index element={ <Home /> } /> 
         <Route path='/' element={ <Home /> } />
         <Route path='/Store' element={ <Store /> } />
         <Route path='/ProductDetail/:id' element={ <ProductDetail /> } />
