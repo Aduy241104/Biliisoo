@@ -1,0 +1,45 @@
+{
+    "Product": [
+        {
+            "id": 1,
+            "title": "AMORTAGE (BLACK ver.)",
+            "artist": "JISOO",
+            "category": "CD",
+            "price": 29.98,
+            "stock": 120,
+            "images": [
+                "/Images/BLACKVERSLIDE1_750x.webp",
+                "/Images/BLACKVERSLIDE2_750x.webp",
+                "/Images/BLACKVERSLIDE3_576x.webp"
+            ],
+            "inclusions": [
+                "Outbox w/ lenticular design (245.5 x 194.5mm)",
+                "84pg screen playbook (240 x 180mm)",
+                "CD (120 x 120mm)",
+                "Flipbook (120 x 65mm)",
+                "Postcards - 2 each (160 x 90mm)",
+                "Randomized photocard - 1 of 4 (55 x 85mm)",
+                "Randomized polaroid - 1 of 4 (89 x 107mm)"
+            ],
+            "officialNote": "Limit four units per customer. This offer is available to US shipping addresses only. Freight forwarders do not qualify as a US shipping address. Any orders not conforming to these requirements will be canceled. To find your local territory store, please click HERE."
+        },
+        {
+            "id": 2,
+            "title": "AMORTAGE - Photocard softpack CD",
+            "artist": "JISOO",
+            "category": "CD",
+            "price": 11.98,
+            "stock": 200,
+            "images": [
+                "/Images/KIT_SLIDE_1_750x.webp",
+                "/Images/KIT_SLIDE_2_750x.webp"
+            ],
+            "inclusions": [
+                "CD Sleeve",
+                "Softpak Poster",
+                "Exclusive Photocard (1 of 1)"
+            ],
+            "officialNote": "Limit four units per customer. This offer is available to US shipping addresses only. Freight forwarders do not qualify as a US shipping address. Any orders not conforming to these requirements will be canceled. To find your local territory store, please click HERE."
+        }
+    ]
+}

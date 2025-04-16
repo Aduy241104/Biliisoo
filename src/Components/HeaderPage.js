@@ -14,7 +14,7 @@ function HeaderPage() {
                             </button>
                             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                                 <Link to={'/'} className='navbar-brand'>Home</Link>
-                                <ul className="navbar-nav  mb-2 mb-lg-0 nav-option">
+                                <ul className="navbar-nav p-0  mb-2 mb-lg-0 nav-option">
                                     <li className="nav-item">
                                         <Link to={'/Store'} className='nav-link'>Store</Link>
                                     </li>

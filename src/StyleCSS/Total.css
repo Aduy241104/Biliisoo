@@ -44,7 +44,6 @@ body {
         font-size: 11px;
     }
 
-
     .line-clamp2 {
         display: -webkit-box;
         -webkit-line-clamp: 2;
@@ -77,4 +76,13 @@ body {
 
 .item-new img {
     object-fit: cover;
+    object-position: center;
+    height: 60%;
+}
+
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
