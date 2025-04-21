@@ -40,6 +40,48 @@
                 "Exclusive Photocard (1 of 1)"
             ],
             "officialNote": "Limit four units per customer. This offer is available to US shipping addresses only. Freight forwarders do not qualify as a US shipping address. Any orders not conforming to these requirements will be canceled. To find your local territory store, please click HERE."
+        },
+        {
+            "id": 3,
+            "title": "AMORTAGE (PURPLE ver.)",
+            "artist": "JISOO",
+            "category": "CD",
+            "price": 29.98,
+            "stock": 14,
+            "images": [
+                "/Images/PURPLE_VER_SLIDE_1_1100x.webp",
+                "/Images/PURPLE_VER_SLIDE_2_1100x.webp",
+                "/Images/PURPLE_VER_SLIDE_3_1100x.webp"
+            ],
+            "inclusions": [
+                "Outbox w/ lenticular design (245.5 x 194.5mm)",
+                "84pg screen playbook (240 x 180mm)",
+                "CD (120 x 120mm)",
+                "Flipbook (120 x 65mm)",
+                "Postcards - 2 each (160 x 90mm)",
+                "Randomized photocard - 1 of 4 (55 x 85mm)",
+                "Randomized polaroid - 1 of 4 (89 x 107mm)"
+            ],
+            "officialNote": "Limit four units per customer. This offer is available to US shipping addresses only. Freight forwarders do not qualify as a US shipping address. Any orders not conforming to these requirements will be canceled. To find your local territory store, please click HERE."
+        },
+        {
+            "id": 4,
+            "title": "AMORTAGE (NFC)",
+            "artist": "JISOO",
+            "category": "CD",
+            "price": 21.98,
+            "stock": 0,
+            "images": [
+                "/Images/NFC_SLIDE_1_1500x.webp",
+                "/Images/NFC_SLIDE_2_1500x.webp"
+            ],
+            "inclusions": [
+                "Outbox (135 x 100mm)",
+                "Stereoscope (135 x 95mm)",
+                "Photo reel (90mm)",
+                "Flipbook (120 x 65mm)"
+            ],
+            "officialNote": "Limit four units per customer. This offer is available to US shipping addresses only. Freight forwarders do not qualify as a US shipping address. Any orders not conforming to these requirements will be canceled. To find your local territory store, please click HERE."
         }
     ]
 }

@@ -17,8 +17,6 @@
     animation-range: entry 0% cover 20%;
     animation-fill-mode: both;
     animation-composition: replace;
-    /* thay vì mix với animation khác */
-
 }
 
 @keyframes slowAppear {

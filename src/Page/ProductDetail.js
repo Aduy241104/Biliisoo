@@ -14,16 +14,11 @@ function ProductDetail() {
     useEffect(() => {
         data.Product.forEach((item) => {
             if (item.id == id) {
-                console.log("item: ", item);
                 setProduct(item);
                 setInclusions(item.inclusions);
             }
         })
     }, [id])
-
-    console.log("test: ", product.inclusions);
-
-
 
     function shareLink() {
         if (navigator.share) {

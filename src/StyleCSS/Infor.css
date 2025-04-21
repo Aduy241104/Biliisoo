@@ -3,7 +3,7 @@
     font-size: 2vh;
 }
 
-.hj{
+.hj {
     display: inline-block;
 }
 
@@ -19,25 +19,18 @@
 
 @media screen and (max-width: 390px) {
     .anima button {
-            font-size: 12px !important;
-            transition: 0.2s;
-        }
+        font-size: 12px !important;
+        transition: 0.2s;
+    }
 }
-
-.table-content-2 {
-    max-height: 410px;
-    overflow-y: scroll;
-}
-
 
 .table-content-2::-webkit-scrollbar {
     display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
 .table-content-2 {
     -ms-overflow-style: none;
-    /* IE and Edge */
     scrollbar-width: none;
-    /* Firefox */
+    max-height: 410px;
+    overflow-y: scroll;
 }

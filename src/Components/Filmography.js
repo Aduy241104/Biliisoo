@@ -32,7 +32,7 @@ function Filmography() {
     }, [currentIndex])
 
     return (
-        <div className='container-fluid bg-light pt-5 pb-5'>
+        <div className='container-fluid bg-light pt-1 pb-5'>
             <div className='row pt-5 pb-5'>
                 <div className='col-md-7 col-sm-12 d-flex flex-wrap justify-content-center mb-4 block'>
                     <div className='w-100 content-infor flex-wrap align-content-center row'>
@@ -65,7 +65,7 @@ function Filmography() {
                     </div>
                 </div>
                 <div className='col-md-5 col-sm-12 text-center block'>
-                    <img src="/Images/Jisoo3.jpg" alt="" className='w-75 rounded-4 hj' />
+                    <img src={ `${process.env.PUBLIC_URL}/Images/Jisoo3.jpg` } alt="" className='w-75 rounded-4 hj' />
                 </div>
             </div>
         </div>

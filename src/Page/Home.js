@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import HeaderPage from '../Components/HeaderPage'
 import SlideShow from '../Components/SlideShow'
 import NewSong from '../Components/NewSong';
 import data from '../MusicPage.json'

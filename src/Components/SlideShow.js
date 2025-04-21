@@ -32,8 +32,7 @@ function SlideShow({ data }) {
                             <div className='content-slide'>
                                 <div className='name-slide'>{ item.Title }</div>
                                 <div className='des line-clamp'>{ item.Description }</div>
-                                <button>See more</button>
-
+                                <button className='border-0 rounded-2'>See more</button>
                             </div>
                         </div>
                     )

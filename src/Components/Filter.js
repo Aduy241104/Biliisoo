@@ -1,6 +1,36 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-function Filter() {
+function Filter(props) {
+    const [currentCheckBox, setCheckBox] = useState([]);
+
+    function handleCheck(id) {
+        const checkExistID = currentCheckBox.includes(id);
+        if (checkExistID) {
+            const newcheck = currentCheckBox.filter((item) => item != id);
+            setCheckBox(newcheck);
+        } else {
+            setCheckBox(prev => [...prev, id]);
+        }
+    }
+
+
+    function handleAvaibility() {
+        let action = "";
+        if (currentCheckBox.length == 2 || currentCheckBox.length == 0) {
+            action = "all";
+        } else if (currentCheckBox[0] === "1") {
+            action = "in stock";
+        } else {
+            action = "out stock";
+        }
+        props.handleChangeAvaibility(action);
+    }
+
+    useEffect(() => {
+        handleAvaibility();
+    }, [currentCheckBox]);
+
+
     return (
         <div className='function-place row'>
             <div className='col-md-6 d-flex'>
@@ -18,8 +48,8 @@ function Filter() {
                             </p>
                         </li>
                         <li><hr className="dropdown-divider" /></li>
-                        <li className='dropdown-item'><input type="checkbox" className='' /> <label htmlFor="">In stock</label></li>
-                        <li className='dropdown-item'><input type="checkbox" className='' /> <label htmlFor="">Out of stock</label></li>
+                        <li className='dropdown-item'><input type="checkbox" id='1' onClick={ (e) => handleCheck(e.target.id) } /> <label htmlFor="1">In stock</label></li>
+                        <li className='dropdown-item'><input type="checkbox" id='2' onClick={ (e) => handleCheck(e.target.id) } /> <label htmlFor="2">Out of stock</label></li>
                     </ul>
                 </div>
 
@@ -36,8 +66,20 @@ function Filter() {
                         </li>
                         <li><hr className="dropdown-divider" /></li>
                         <div className='dropdown-item d-flex justify-content-between'>
-                            <input type="number" placeholder='From' className='pt-3 pb-3' />
-                            <input type="number" placeholder='To' className='ms-3 pt-3 pb-3' />
+                            <input
+                                type="number"
+                                placeholder='From'
+                                className='pt-3 pb-3'
+                                onChange={ (e) => props.handleChangeMinPrice((!e.target.value) ? 0 : e.target.value) }
+                                min={ 0 }
+                            />
+                            <input
+                                type="number"
+                                placeholder='To'
+                                className='ms-3 pt-3 pb-3'
+                                onChange={ (e) => props.handleChangeMaxPrice((!e.target.value) ? 0 : e.target.value) }
+                                min={ 0 }
+                            />
                         </div>
                     </ul>
                 </div>
