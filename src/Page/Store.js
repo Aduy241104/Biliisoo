@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Filter from '../Components/Filter'
 import data2 from '../Store.json'
 import ProductList from '../Components/ProductList'
-import { logDOM } from '@testing-library/dom';
 
 function Store() {
   const [productList, setProductList] = useState([]);
@@ -37,9 +36,16 @@ function Store() {
     }
 
     if (maxPrice >= minPrice) {
-      let newProductList = data2.Product.filter((item) => {
-        return item.price <= maxPrice && item.price >= minPrice;
-      })
+      let newProductList;
+      if (maxPrice === 0 && minPrice === 0) {
+        newProductList = data2.Product
+      } else {
+        newProductList = data2.Product.filter((item) => {
+          return item.price <= maxPrice && item.price >= minPrice;
+        })
+      }
+      console.log("list 1: ", newProductList);
+
 
       switch (availability.action) {
         case "in stock":
@@ -59,13 +65,11 @@ function Store() {
 
   }, [maxPrice, minPrice, availability])
 
-
   useEffect(() => {
     if (data2.Product) {
       setProductList(data2.Product);
     }
   }, [])
-
 
 
   return (
@@ -80,7 +84,6 @@ function Store() {
         <ProductList
           dataProduct={ productList }
         />
-
       </div>
     </div>
   )
