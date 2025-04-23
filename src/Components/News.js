@@ -12,7 +12,7 @@ function News({ data }) {
 
                 <div className='col-md-10 col-12 container-fluid p-4'>
                     <div className='row'>
-                        { data.map((item) => {
+                        { data.slice(0,3).map((item) => {
                             return (
                                 <NewItem
                                     imgLink={ item.thumbnail }

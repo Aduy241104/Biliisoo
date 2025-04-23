@@ -9,6 +9,11 @@ function MediaDetail() {
   const navigate = useNavigate();
 
 
+  function handleChangePage() {
+    navigate('/news');
+  }
+
+
   useEffect(() => {
     let promis = new Promise((resolve, reject) => {
       const obj = data.Media.find((item) => item.id == id);
@@ -29,9 +34,6 @@ function MediaDetail() {
   useLayoutEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "instant" });
   }, [])
-
-
-
 
 
   return (
@@ -59,7 +61,12 @@ function MediaDetail() {
                     key={ index } />)
               })
             ) }
-            <button className='bg-transparent text-white border-0 p-5'>VIEW LIST<i class="fa-solid fa-bars ms-2 text-dark"></i></button>
+            <button
+              className='bg-transparent text-white border-0 p-5'
+              onClick={ () => handleChangePage() }
+            >
+              VIEW LIST<i class="fa-solid fa-bars ms-2 text-dark"></i>
+            </button>
           </div>
         </div>
       </div>
