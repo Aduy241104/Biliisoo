@@ -1,0 +1,2 @@
+.Box{align-items:center;background-color:#000;border-radius:20px;display:flex;height:400px;justify-content:center;margin:100px auto;overflow:hidden;position:relative;width:300px;z-index:1}.Box:before{animation:animate-2 4s linear infinite;background-color:#fff;box-shadow:0 0 20px #080808;content:"";height:140%;position:absolute;width:180px;z-index:1}.box_content{background-color:blue;border-radius:16px;inset:10px;position:absolute;z-index:2}@keyframes animate-2{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
+/*# sourceMappingURL=594.13056bef.chunk.css.map*/

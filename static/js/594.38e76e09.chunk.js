@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbillisoo=self.webpackChunkbillisoo||[]).push([[594],{594:(s,e,n)=>{n.r(e),n.d(e,{default:()=>t});n(43);var c=n(579);const o=function(){return(0,c.jsx)("div",{className:"Box",children:(0,c.jsx)("span",{class:"box_content",children:"Some random text here"})})};const t=function(){return(0,c.jsx)("div",{children:(0,c.jsx)(o,{})})}}}]);
+//# sourceMappingURL=594.38e76e09.chunk.js.map

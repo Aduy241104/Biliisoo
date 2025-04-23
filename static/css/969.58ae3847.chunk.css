@@ -1,0 +1,2 @@
+.productItem{height:470px}@media screen and (max-width:700px){.productItem{height:300px}.line-clamp3{-webkit-line-clamp:1;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.productItem h5{font-size:1rem}}.productItem:hover img{transform:scale(1.2)}.layout-product{overflow:hidden}.layout-product img{object-fit:cover;transition:1s}.bg-purple-2{background-color:#4e0593}.bg-purple-2:hover{background-color:#fff;color:#000!important}.list-infor li{margin:16px 2px}
+/*# sourceMappingURL=969.58ae3847.chunk.css.map*/
