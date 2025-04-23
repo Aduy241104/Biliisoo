@@ -17,6 +17,7 @@ function News({ data }) {
                                 <NewItem
                                     imgLink={ item.thumbnail }
                                     title={item.title}
+                                    id={item.id}
                                 />
                             )
                         }) }

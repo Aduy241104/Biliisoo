@@ -172,21 +172,25 @@
     },
     {
       "id": 2,
-      "thumbnail": "/Images/hq721.avif",
-      "title": "[🎥] Newtopia BEHIND",
-      "tags": [],
-      "description": "",
+      "thumbnail": "/Images/67ad946849b33.jpg",
+      "title": "JISOO X DIOR COUTURE SS25 SHOW",
+      "tags": [
+        "/Images/67ad946849b33.jpg",
+        "/Images/67ad946849b7e.jpg"
+      ],
+      "description": "JISOO at the Dior SS25 Haute Couture Show in Paris",
       "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
     },
     {
       "id": 3,
-      "thumbnail": "/Images/hqdefault.webp",
-      "title": "[🎥] 'AMORTAGE' UNBOXING",
+      "thumbnail": "/Images/67579b527166b.jpg",
+      "title": "JISOO X DIOR DIOR GOLD HOUSE OPENING EVENT",
       "tags": [
-        "JISOO",
-        "AMORTAGE"
+        "/Images/67579b527166b.jpg",
+        "/Images/67579b52716ca.jpg",
+        "/Images/67579b5271719.jpg"
       ],
-      "description": "",
+      "description": "JISOO at < Dior Gold House> Concept Store Opening Event in Bangkok",
       "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
     },
     {

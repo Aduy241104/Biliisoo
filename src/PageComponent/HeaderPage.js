@@ -33,10 +33,10 @@ function HeaderPage() {
                     <img src="//shop.jisoo.io/cdn/shop/files/Logo_Desktop_Blk_100x.png?v=1738043611" alt="" />
                 </div>
                 <div className='col-md-4 col-12 d-flex justify-content-end fs-4 headerResponsive'>
-                    <i class="fa-brands fa-spotify me-3"></i>
-                    <i class="fa-solid fa-cart-shopping me-3"></i>
-                    <i class="fa-brands fa-youtube me-3"></i>
-                    <i class="fa-brands fa-instagram me-3"></i>
+                    <Link to={"https://open.spotify.com/artist/6UZ0ba50XreR4TM8u322gs?si=VaVPmJovSJmlpAPOOw7l7w"} className='text-black'><i class="fa-brands fa-spotify me-3"></i></Link>
+                    <Link className='text-black'><i class="fa-solid fa-cart-shopping me-3"></i></Link>
+                    <Link to={"https://youtube.com/@sooyaaa__?si=RnSsPiiu9isjjO2A"} className='text-black'><i class="fa-brands fa-youtube me-3"></i></Link>
+                    <Link to={"https://www.instagram.com/sooyaaa__/"} className='text-black'><i class="fa-brands fa-instagram me-3"></i></Link>
                 </div>
             </div>
         </div>

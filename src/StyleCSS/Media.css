@@ -1,6 +1,18 @@
 @media screen and (max-width: 700px) {
-    .media-text  {
-       width: 65% !important;
+    .media-text {
+        width: 65% !important;
+    }
+
+    .new-wrapper {
+        width: 100% !important;
+    }
+
+    .media-section-2 p {
+        font-size: 1.5vh !important;
+    }
+
+    .new-layout {
+        padding: 30px 0px !important;
     }
 }
 
@@ -11,4 +23,32 @@
 
 .media-text h5 {
     animation: animate 0.8s ease-in-out 1 forwards;
+}
+
+
+.media-wrapper {
+    height: 380px;
+    overflow: hidden;
+}
+
+.media-section-1 {
+    overflow: hidden;
+}
+
+.media-section-1 img {
+    object-fit: cover;
+    object-position: center;
+    transition: 0.5s;
+}
+
+.media-section-2 p {
+    font-size: 2vh;
+}
+
+.new-item-layout {
+    cursor: pointer;
+}
+
+.new-item-layout :hover .media-section-1 img {
+    transform: scale(1.3);
 }

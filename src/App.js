@@ -1,28 +1,33 @@
 import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Home from './Page/Home';
 import HeaderPage from './PageComponent/HeaderPage';
-import Store from './Page/Store';
-import ProductDetail from './Page/ProductDetail';
-import TestPage from './Page/TestPage';
-import MediaDetail from './Page/MediaDetail';
+import React, { Suspense, lazy } from 'react';
 
+
+const Home = lazy(() => import('./Page/Home'));
+const Store = lazy(() => import('./Page/Store'));
+const ProductDetail = lazy(() => import('./Page/ProductDetail'));
+const TestPage = lazy(() => import('./Page/TestPage'));
+const MediaDetail = lazy(() => import('./Page/MediaDetail'));
+const News = lazy(() => import('./Page/News'));
 
 function App() {
   return (
     <>
       <HeaderPage />
-     
 
-      <Routes>
-        <Route index element={ <Home /> } />
-        <Route path='/' element={ <Home /> } />
-        <Route path='/Store' element={ <Store /> } />
-        <Route path='/ProductDetail/:id' element={ <ProductDetail /> } />
-        <Route path='/test' element={ <TestPage /> } />
-        <Route path='/media' element={ <MediaDetail /> } />
-      </Routes>
+      <Suspense fallback={ <div className="text-center mt-5">Loading page...</div> }>
+        <Routes>
+          <Route index element={ <Home /> } />
+          <Route path='/' element={ <Home /> } />
+          <Route path='/Store' element={ <Store /> } />
+          <Route path='/ProductDetail/:id' element={ <ProductDetail /> } />
+          <Route path='/test' element={ <TestPage /> } />
+          <Route path='/media/:id' element={ <MediaDetail /> } />
+          <Route path='/news' element={ <News /> } />
+        </Routes>
+      </Suspense>
     </>
   );
 }

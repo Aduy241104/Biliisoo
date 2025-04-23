@@ -74,10 +74,22 @@ body {
     overflow: hidden;
 }
 
+.item-new-img-layout {
+    height: 60%;
+    overflow: hidden;
+}
+
 .item-new img {
     object-fit: cover;
     object-position: center;
-    height: 60%;
+    height: 100%;
+    width: 100%;
+    transform: scale(1);
+    transition: 0.8s;
+}
+
+.item-new img:hover {
+    transform: scale(1.4);
 }
 
 .dropdown-item:focus,

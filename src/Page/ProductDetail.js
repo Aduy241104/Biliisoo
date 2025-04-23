@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useLayoutEffect, useState } from 'react'
 import Swip from './Swip'
 import SuggestSection from '../Components/SuggestSection';
 import data from '../Store.json'
@@ -19,6 +19,10 @@ function ProductDetail() {
             }
         })
     }, [id])
+
+    useLayoutEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    }, [])
 
     function shareLink() {
         if (navigator.share) {
