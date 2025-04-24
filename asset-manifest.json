@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Biliisoo/static/css/main.a31f9fb6.css",
-    "main.js": "/Biliisoo/static/js/main.d6b392ef.js",
+    "main.js": "/Biliisoo/static/js/main.7e9aad1a.js",
     "static/css/5.0644754c.chunk.css": "/Biliisoo/static/css/5.0644754c.chunk.css",
     "static/js/5.2b8cbc56.chunk.js": "/Biliisoo/static/js/5.2b8cbc56.chunk.js",
     "static/css/969.58ae3847.chunk.css": "/Biliisoo/static/css/969.58ae3847.chunk.css",
@@ -15,13 +15,13 @@
     "static/css/347.b3e42ba6.chunk.css": "/Biliisoo/static/css/347.b3e42ba6.chunk.css",
     "static/js/347.ffeb2813.chunk.js": "/Biliisoo/static/js/347.ffeb2813.chunk.js",
     "static/css/886.a9170b80.chunk.css": "/Biliisoo/static/css/886.a9170b80.chunk.css",
-    "static/js/886.9a6570e6.chunk.js": "/Biliisoo/static/js/886.9a6570e6.chunk.js",
+    "static/js/886.6633e022.chunk.js": "/Biliisoo/static/js/886.6633e022.chunk.js",
     "static/js/453.262666df.chunk.js": "/Biliisoo/static/js/453.262666df.chunk.js",
     "static/js/458.ebfe5b9c.chunk.js": "/Biliisoo/static/js/458.ebfe5b9c.chunk.js",
     "static/js/847.6aaf21e7.chunk.js": "/Biliisoo/static/js/847.6aaf21e7.chunk.js",
     "index.html": "/Biliisoo/index.html",
     "main.a31f9fb6.css.map": "/Biliisoo/static/css/main.a31f9fb6.css.map",
-    "main.d6b392ef.js.map": "/Biliisoo/static/js/main.d6b392ef.js.map",
+    "main.7e9aad1a.js.map": "/Biliisoo/static/js/main.7e9aad1a.js.map",
     "5.0644754c.chunk.css.map": "/Biliisoo/static/css/5.0644754c.chunk.css.map",
     "5.2b8cbc56.chunk.js.map": "/Biliisoo/static/js/5.2b8cbc56.chunk.js.map",
     "969.58ae3847.chunk.css.map": "/Biliisoo/static/css/969.58ae3847.chunk.css.map",
@@ -35,13 +35,13 @@
     "347.b3e42ba6.chunk.css.map": "/Biliisoo/static/css/347.b3e42ba6.chunk.css.map",
     "347.ffeb2813.chunk.js.map": "/Biliisoo/static/js/347.ffeb2813.chunk.js.map",
     "886.a9170b80.chunk.css.map": "/Biliisoo/static/css/886.a9170b80.chunk.css.map",
-    "886.9a6570e6.chunk.js.map": "/Biliisoo/static/js/886.9a6570e6.chunk.js.map",
+    "886.6633e022.chunk.js.map": "/Biliisoo/static/js/886.6633e022.chunk.js.map",
     "453.262666df.chunk.js.map": "/Biliisoo/static/js/453.262666df.chunk.js.map",
     "458.ebfe5b9c.chunk.js.map": "/Biliisoo/static/js/458.ebfe5b9c.chunk.js.map",
     "847.6aaf21e7.chunk.js.map": "/Biliisoo/static/js/847.6aaf21e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a31f9fb6.css",
-    "static/js/main.d6b392ef.js"
+    "static/js/main.7e9aad1a.js"
   ]
 }
