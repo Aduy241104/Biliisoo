@@ -1,0 +1,61 @@
+.play-music-layout {
+    width: 100%;
+    height: 89vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+.play-music-layout img {
+    width: 100%;
+}
+
+.play-frame {
+    height: 400px;
+    background-color: rgb(232, 219, 251);
+    z-index: 2;
+    
+
+}
+.play-image {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.play-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.play-frame button {
+    padding: 8px 0px;
+    width: 13%;
+}
+
+.play-footer {
+    position: absolute;
+    z-index: 1;
+    height: 60%;
+    bottom: -5%;
+}
+
+@media screen and (max-width: 768px) {
+    .play-frame {
+        width: 70% !important;
+    }
+
+        .play-footer {
+            position: absolute;
+            z-index: 1;
+            height: 40%;
+            bottom: -5%;
+        }
+
+                .play-music-layout {
+                    width: 100%;
+                    height: 60vh;
+                    overflow: hidden;
+                    background-color: black;
+                }
+}

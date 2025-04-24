@@ -55,7 +55,7 @@ function MediaDetail() {
               news.tags.map((item, index) => {
                 return (
                   <img
-                    src={ item }
+                    src={ `${process.env.PUBLIC_URL}${item}` }
                     alt=""
                     className='w-75 mb-2'
                     key={ index } />)

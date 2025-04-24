@@ -12,7 +12,7 @@ function Song({ img, name, singer, id }) {
           <p className='text-light'>{ name }</p>
           <p className='text-secondary'>{ singer }</p>
         </div>
-        <Link className='ps-3 pe-3 pt-2 pb-2 rounded-5 text-center play-button border-1 border'><i className="fa-solid fa-play fs-6"></i></Link>
+        <Link to={`/playMusic/${id}`} className='ps-3 pe-3 pt-2 pb-2 rounded-5 text-center play-button border-1 border'><i className="fa-solid fa-play fs-6"></i></Link>
       </div>
     </div>
   )

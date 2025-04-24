@@ -17,7 +17,7 @@ function CardSwip({ listImg }) {
                 >
                     { listImg.map((item, index) => {
                         return (
-                            <SwiperSlide key={ index }><img src={ `${process.env.PUBLIC_URL}${item}` } alt="" /></SwiperSlide>
+                            <SwiperSlide key={ index }><img src={ `${process.env.PUBLIC_URL}${item}` } loading='lazy' alt="" /></SwiperSlide>
                         )
                     }) }
                 </Swiper>

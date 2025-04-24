@@ -42,25 +42,29 @@
       "id": "1",
       "img": "/Images/earthquake.jpg",
       "name": "EARTHQUAKE",
-      "singer": "JISOO"
+      "singer": "JISOO",
+      "audio": ""
     },
     {
       "id": "2",
       "img": "/Images/YourLove.jpg",
       "name": "YOUR LOVE",
-      "singer": "JISOO"
+      "singer": "JISOO",
+      "audio": ""
     },
     {
       "id": "3",
       "img": "/Images/Tears.jpg",
       "name": "TEARS",
-      "singer": "JISOO"
+      "singer": "JISOO",
+      "audio": "/Audio/JISOO - Your Love (Official Audio).mp4"
     },
     {
       "id": "4",
       "img": "/Images/HugsAndKiss.jpg",
       "name": "HUGS & KISSES",
-      "singer": "JISOO"
+      "singer": "JISOO",
+      "audio": ""
     }
   ],
   "Awards": [

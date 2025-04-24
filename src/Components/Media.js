@@ -16,7 +16,7 @@ function Media({ id, title, thumbnail }) {
     <div className='col-md-5 col-12 mb-4 new-item-layout' onClick={ () => handleViewNewDetail(id) }>
       <div className='media-wrapper-2 bg-light rounded-3'>
         <div className='media-section-1 h-75'>
-          <img src={ thumbnail } alt="" className='w-100 h-100' />
+          <img src={ `${process.env.PUBLIC_URL}${thumbnail}` } alt="" className='w-100 h-100' />
         </div>
         <div className='media-section-2 p-3'>
           <p>{ title }</p>
