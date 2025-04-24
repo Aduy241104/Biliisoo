@@ -46,10 +46,10 @@ function PlayMusic() {
         <div className='play-music-layout bg-dark d-flex  justify-content-center '>
             <div className='play-frame w-25 p-3 rounded-2 mt-5'>
                 <div className='play-image rounded-2'>
-                    <img src="/Images/Banner8.jpg" alt="" />
+                    <img src={ `${process.env.PUBLIC_URL}${"/Images/Banner8.jpg"}` } alt="" />
                 </div>
                 <div className='d-flex flex-column mt-4 align-items-center'>
-                    <audio src="/Audio/JISOO - Your Love (Official Audio).mp4" ref={ audioRef }></audio>
+                    <audio src={ `${process.env.PUBLIC_URL}${"/Audio/JISOO - Your Love (Official Audio).mp4"}` } ref={ audioRef }></audio>
                     <h5>Your Love</h5>
                     <input
                         type="range"
@@ -66,7 +66,7 @@ function PlayMusic() {
             <div className='play-footer w-100'>
                 <Wave fill='rgb(173,170,199)'
                     paused={ !isPlay }
-                    style={ { display: 'flex', height:'100%' } }
+                    style={ { display: 'flex', height: '100%' } }
                     options={ {
                         height: 20,
                         amplitude: 20,
