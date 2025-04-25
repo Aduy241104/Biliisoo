@@ -2,21 +2,18 @@ import React from 'react'
 import CardSwip from './SwiperCard/CardSwip'
 
 const imageList = [
+    "/Images/VietNam3.jpg",
     "/Images/Fanmmet10.jpg",
     "/Images/Fanmeeting2.jpg",
     "/Images/VietNam2.jpg",
-    "/Images/VietNam3.jpg",
     "/Images/VietNam4.jpg",
     "/Images/VietNamFanmeeting1.jpg",
     "/Images/Fanmet2.jpg",
     "/Images/Fanmmet6.jpg",
     "/Images/Fanmet5.jpg",
-    "/Images/Fanmmet9.jpg",
     "/Images/Fanmmet7.jpg",
     "/Images/Fanmmet9.jpg",
-    "/Images/Fanmmeet8.jpg",
-    "/Images/VietNam3.jpg",
-    "/Images/Fanmmet9.jpg"
+    "/Images/Fanmmeet8.jpg"
 ];
 
 function Gallery() {
@@ -33,5 +30,4 @@ function Gallery() {
         </div>
     )
 }
-
 export default Gallery

@@ -43,28 +43,28 @@
       "img": "/Images/earthquake.jpg",
       "name": "EARTHQUAKE",
       "singer": "JISOO",
-      "audio": ""
+      "audio": "/Audio/JISOO - Your Love (Official Audio).mp4"
     },
     {
       "id": "2",
       "img": "/Images/YourLove.jpg",
       "name": "YOUR LOVE",
       "singer": "JISOO",
-      "audio": ""
+      "audio": "/Audio/JISOO - Your Love (Official Audio).mp4"
     },
     {
       "id": "3",
       "img": "/Images/Tears.jpg",
       "name": "TEARS",
       "singer": "JISOO",
-      "audio": "/Audio/JISOO - Your Love (Official Audio).mp4"
+      "audio": "/Audio/JISOO - TEARS (Official Audio).mp4"
     },
     {
       "id": "4",
       "img": "/Images/HugsAndKiss.jpg",
       "name": "HUGS & KISSES",
       "singer": "JISOO",
-      "audio": ""
+      "audio": "/Audio/JISOO - Hugs _ Kisses (Official Audio).mp4"
     }
   ],
   "Awards": [
@@ -168,11 +168,13 @@
   "Media": [
     {
       "id": 1,
-      "thumbnail": "/Images/hq720.avif",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": ["JISOO", "AMORTAGE", "earthquake"],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
+      "thumbnail": "/Images/6731afdc787ac.jpg",
+      "title": "JISOO X DIOR SS25 RTW FASHION SHOW",
+      "tags": [
+        "/Images/6731afdc787ac.jpg",
+        "/Images/6731afdc787f5.jpg"
+      ],
+      "description": "JISOO at the Dior SS25 Show for Paris Fashion Week"
     },
     {
       "id": 2,
@@ -182,8 +184,7 @@
         "/Images/67ad946849b33.jpg",
         "/Images/67ad946849b7e.jpg"
       ],
-      "description": "JISOO at the Dior SS25 Haute Couture Show in Paris",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
+      "description": "JISOO at the Dior SS25 Haute Couture Show in Paris"
     },
     {
       "id": 3,
@@ -194,128 +195,19 @@
         "/Images/67579b52716ca.jpg",
         "/Images/67579b5271719.jpg"
       ],
-      "description": "JISOO at < Dior Gold House> Concept Store Opening Event in Bangkok",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
+      "description": "JISOO at < Dior Gold House> Concept Store Opening Event in Bangkok"
     },
     {
       "id": 4,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
+      "thumbnail": "/Images/66988998cc883.jpg",
+      "title": "JISOO X CARTIER TRINITY SINGAPORE EVENT",
       "tags": [
-        "JISOO"
+        "/Images/66988998cc8c8.jpg",
+        "/Images/66988998cc883.jpg",
+        "/Images/66988998cc824.jpg",
+        "/Images/66988998cc911.jpg"
       ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 5,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 6,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 7,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 8,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 9,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 10,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 11,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 12,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 13,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 14,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
-    },
-    {
-      "id": 15,
-      "thumbnail": "/Images/hqdefault1.webp",
-      "title": "[🎥] 'AMORTAGE' PROMOTION SKETCH",
-      "tags": [
-        "JISOO"
-      ],
-      "description": "",
-      "linkVideo": "https://www.youtube.com/embed/_94gk61cBUg?si=xEeN14f3DMxnohYN"
+      "description": "JISOO at Cartier Trinity 100th Anniversary <The Centenary of an ICON > Event in Singapore"
     }
   ]
 }

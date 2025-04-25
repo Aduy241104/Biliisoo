@@ -41,7 +41,6 @@
 
 .media-section-1 img {
     object-fit: cover;
-    object-position: 50% 3000%;
     transition: 0.5s;
     transform: scale(1.45);
 }

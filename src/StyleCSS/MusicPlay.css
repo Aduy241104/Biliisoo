@@ -1,61 +1,101 @@
 .play-music-layout {
     width: 100%;
-    height: 89vh;
-    overflow: hidden;
-    background-color: black;
+    height: 100%;
+    background-image: url("/public/Images/2833951.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.play-music-layout img {
-    width: 100%;
+input[type=range] {
+    accent-color: rgb(0, 0, 0);
+    /* Đổi màu thành cam hoặc màu bạn muốn */
 }
 
 .play-frame {
-    height: 400px;
-    background-color: rgb(232, 219, 251);
+    height: 57vh;
     z-index: 2;
-    
-
+    backdrop-filter: blur(120px) !important;
+    border-color: rgb(161, 161, 161) !important;
+    background-color: transparent !important;
+    border: 1px solid;
+    box-shadow: 5px 10px 16px rgb(255, 255, 255);
 }
+
 .play-image {
-    height: 60%;
+    height: 57%;
     width: 100%;
     overflow: hidden;
-
 }
 
 .play-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: 0px 15%;
 }
+
 .play-frame button {
-    padding: 8px 0px;
-    width: 13%;
+    padding: 10px;
+    width: 3vw;
 }
 
 .play-footer {
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     height: 60%;
     bottom: -5%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .play-frame {
-        width: 70% !important;
+        width: 90% !important;
+        height: 430px;
+    }
+
+    .suggest-music-layout {
+        width: 100% !important;
+        height: 180px;
+    }
+
+
+    .play-music-layout {
+        width: 100%;
+        height: 60vh;
+
+        background-color: black;
+    }
+
+    .music-card {
+        height: 150px;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
     }
 
         .play-footer {
-            position: absolute;
-            z-index: 1;
+           
             height: 40%;
             bottom: -5%;
         }
 
-                .play-music-layout {
-                    width: 100%;
-                    height: 60vh;
-                    overflow: hidden;
-                    background-color: black;
-                }
+    .play-frame button {
+        padding: 10px;
+        width: 10vw;
+    }
+
+    .suggest-music-layout {
+        width: 100%;
+    }
+}
+
+.music-card {
+    height: 120px;
+    width: 130px;
+    background-position: center;
+    background-size: cover;
+}
+
+.suggest-music-layout {
+    background-color: rgba(59, 59, 59, 0.7);
+    width: 30%;
 }
