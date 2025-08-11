@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import '../StyleCSS/Slide.css'
 
+
+
 function SlideShow({ data }) {
     const [initSlide, setSlides] = useState([]);
 

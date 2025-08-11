@@ -21,7 +21,7 @@ function Gallery() {
         <div className='container-fluid pt-5 pb-5'>
             <div className='row'>
                 <div className='col-md-2 flex-wrap align-content-center mb-4'>
-                    <h5 className='ps-2 pb-2 pt-2 bg-light rounded-5'>Gallery</h5>
+                    <h5 className='ps-2 pb-2 pt-2 bg-light rounded-5'>Galleryyyy</h5>
                 </div>
                 <div className='col-lg-10'>
                     <CardSwip listImg={ imageList } />
@@ -29,5 +29,5 @@ function Gallery() {
             </div>
         </div>
     )
-}
+}   
 export default Gallery

@@ -12,6 +12,7 @@ function PlayMusic() {
     const [duration, setDuration] = useState(0);
     const [audio, setAudio] = useState({});
     const { id } = useParams();
+    const audioRef = useRef(null);
 
 
     function handleSeek(e) {
@@ -24,7 +25,7 @@ function PlayMusic() {
         setDuration(audioRef.current.duration);
     }
 
-    const audioRef = useRef(null);
+   
 
     function handlePlayMusic() {
         if (!isPlay) {
