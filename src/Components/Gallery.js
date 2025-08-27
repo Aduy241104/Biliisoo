@@ -25,6 +25,7 @@ function Gallery() {
                 </div>
                 <div className='col-lg-10'>
                     <CardSwip listImg={ imageList } />
+                    hellloo
                 </div>
             </div>
         </div>
